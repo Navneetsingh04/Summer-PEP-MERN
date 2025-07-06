@@ -1,0 +1,45 @@
+.todo-app {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    background-color: #ffffff;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0 6px 18px rgba(10, 10, 10, 0.8);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.todo-app h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #3c3ce4;
+}
+
+.todo-app input {
+    padding: 10px;
+    width: 70%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+}
+.todo-app input:focus {
+    border-color: #3c3ce4;
+}
+
+.todo-app button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.todo-app button:hover {
+    background-color: #06f612;
+}
