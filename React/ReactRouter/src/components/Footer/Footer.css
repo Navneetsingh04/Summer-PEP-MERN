@@ -1,0 +1,15 @@
+
+.footer {
+  display: grid;
+  gap: 20px;
+  padding: 15px;
+  height: 200px;
+  color: white;
+  background-color: rgb(189, 181, 181);
+  grid-template-columns: repeat(4, 1fr);
+}
+
+li {
+  display: flex;
+  gap: 10px;
+}
