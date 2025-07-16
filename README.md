@@ -2,18 +2,6 @@
 
 Welcome to my Summer PEP (Professional Enhancement Program) repository! This repository contains my learning journey through web development, covering HTML, CSS, JavaScript, React.js, and MongoDB.
 
-## 📚 Table of Contents
-
-- [Overview](#overview)
-- [Technologies Used](#technologies-used)
-- [Project Structure](#project-structure)
-- [Daily Learning Progress](#daily-learning-progress)
-- [Projects](#projects)
-- [React Applications](#react-applications)
-- [JavaScript Concepts](#javascript-concepts)
-- [How to Run](#how-to-run)
-- [Notes & Resources](#notes--resources)
-
 ## 🎯 Overview
 
 This repository documents my comprehensive web development learning journey during the Summer PEP program. It includes daily practice exercises, hands-on projects, React applications, and detailed notes covering fundamental to advanced concepts.
