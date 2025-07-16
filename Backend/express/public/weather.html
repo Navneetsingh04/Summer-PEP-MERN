@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Application</title>
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        font-family: "Courier New", Courier, monospace;
+      }
+
+      body {
+        display: flex;
+        height: 100vh;
+        gap: 10px;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        background-color: aliceblue;
+      }
+
+      h1 {
+        font-size: 48px;
+      }
+
+      ul {
+        padding: 0px;
+        margin: 0px;
+      }
+
+      li {
+        font-size: 18px;
+      }
+
+      li > span {
+        font-size: 20px;
+        font-weight: 550;
+      }
+      a {
+        color: white;
+        font-size: 16px;
+        border-radius: 5px;
+        padding: 10px 15px;
+        text-decoration: none;
+        background-color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Weather of {{{cityName}}}</h1>
+    <ul>
+      <li><span>Type:</span> {{{type}}}</li>
+      <li><span>Description:</span> {{{description}}}</li>
+      <li><span>Tempreture(</span>in F): {{{temprature}}}</li>
+      <li><span>Visibility:</span> {{{visibility}}}</li>
+      <li><span>Wind </span>Speed: {{{speed}}}</li>
+    </ul>
+    <a href="/">Go Back</a>
+  </body>
+</html>
