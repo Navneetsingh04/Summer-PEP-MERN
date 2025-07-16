@@ -1,0 +1,18 @@
+# Node modules directories
+backend/node_modules/
+ecommerce/node_modules/
+express/node_modules/
+Node/node_modules/
+
+# Package lock files (optional - you may want to keep these)
+backend/package-lock.json
+ecommerce/package-lock.json
+express/package-lock.json
+Node/package-lock.json
+
+# Environment files
+express/.env
+
+# Log files
+backend/log.txt
+express/log.txt
