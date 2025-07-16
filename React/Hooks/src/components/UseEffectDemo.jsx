@@ -16,9 +16,10 @@ const UseEffectDemo = () => {
   const[name,setName] = useState("Navneet");
 
   useEffect(() => {
-    setTimeout(() => {
+    const interval = setTimeout(() => {
       setCount(count => count+1)
     },2000)
+    return() => clearInterval(interval);
   },[count,name])
 
   return (
