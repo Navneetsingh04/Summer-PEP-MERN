@@ -4,7 +4,7 @@ ecommerce/node_modules/
 express/node_modules/
 Node/node_modules/
 file-upload/node_modules/
-file-upload/uploads
+file-upload/uploads/
 
 # Package lock files (optional - you may want to keep these)
 backend/package-lock.json
